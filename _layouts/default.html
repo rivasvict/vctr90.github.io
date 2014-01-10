@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-			<link type="text/css" rel="stylesheet" href="css/main.css"/>
-		<head>
+		{% include head.html %}
 		<body>
 			<div id=wrapper>
 				<div id="header">
-					header
+					<h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            				<a class="extra" href="/">home</a>
+            				<img  src="/Avatar/me.jpeg" class="avatar" />
 				</div>
                         		{{ content }}
 				<div id="footer">
