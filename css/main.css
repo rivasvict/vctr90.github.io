@@ -140,3 +140,146 @@ a:visited { color: #a0a; }
 .footer .rss img {
   border: 0;
 }
+
+@media only screen and (min-width: 150px) and (max-width:532px){
+
+	body{
+		font: 13.34px Helvetica, Arial, sans-serif;
+		background-color:#D8D8D8;
+		width:94%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+	  font-size: 100%; }
+
+	h1 { margin-bottom: 1em; }
+	p { margin: 1em 0; }
+
+	a         { color: #00a; }
+	a:hover   { color: #000; }
+	a:visited { color: #a0a; }
+
+	.avatar {
+		position:absolute;
+	        left:5%;
+	        top:30px;
+	        width:12%;
+	        border-radius: 150px;
+	        -webkit-border-radius: 150px;
+	        -moz-border-radius: 150px;
+	        height:auto;
+		display:none;
+	}
+
+	#wrapper{
+	//	background-color:green;
+	}
+
+	#header{
+	        background-color:black;
+		position:absolute;
+		height:50px;
+		top:0;
+		left:0;
+		width:100%;
+		text-align:center;
+		//display:none;
+	}
+
+	#header a {
+	  font-weight: bold;
+	  text-decoration: none;
+	  color:white;
+	}
+
+	.title {
+	  display: inline-block;
+	  margin-bottom: 2em;
+	}
+
+	.title a {
+	  color: white;
+	  font-size:30px;
+	}
+
+	.title a:hover {
+	  color: gray;
+	}
+
+	.header a.extra {
+	  color: #aaa;
+	  margin-left: 1em;
+	}
+
+	.header a.extra:hover {
+	  color: #000;
+	}
+
+
+
+	#home{
+		top:55px;
+	        background-color:white;
+		position:absolute;
+		width:94%;
+		bottom:85px;
+		overflow:auto;
+	}
+
+	.post {
+		top:55px;
+	        background-color:white;
+	        position:absolute;
+	        width:56%;
+	        bottom:85px;
+	        overflow:auto;
+		padding-left:2%;
+		padding-right:2%;
+	}
+
+	.posts {
+	  list-style-type: none;
+	  margin-bottom: 2em;
+	}
+
+	.posts li {
+	  line-height: 1.75em;
+	}
+
+	.posts span {
+	  color: #aaa;
+	  font-family: Monaco, "Courier New", monospace;
+	  font-size: 80%;
+	}
+
+	#footer{
+	        background-color:white;
+		position:absolute;
+		bottom:0;
+		width:90%;
+		height:80px;
+		padding-left:2%;
+		padding-right:2%;
+	}
+
+	.footer .contact {
+	  float: left;
+	  margin-right: 3em;
+	}
+
+	.footer .contact a {
+	  color: #8085C1;
+	}
+
+	.footer .rss {
+	  margin-top: 1.1em;
+	  margin-right: -.2em;
+	  float: right;
+	}
+
+	.footer .rss img {
+	  border: 0;
+	}
+}
