@@ -163,14 +163,14 @@ a:visited { color: #a0a; }
 
 	.avatar {
 		position:absolute;
-	        left:5%;
-	        top:30px;
-	        width:12%;
+	        left:2%;
+	        top:15%;
+	        width:7%;
 	        border-radius: 150px;
 	        -webkit-border-radius: 150px;
 	        -moz-border-radius: 150px;
 	        height:auto;
-		display:none;
+		//display:none;
 	}
 
 	#wrapper{
