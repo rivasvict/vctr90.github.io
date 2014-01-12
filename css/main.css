@@ -282,4 +282,9 @@ a:visited { color: #a0a; }
 	.footer .rss img {
 	  border: 0;
 	}
+
+	#links{
+		display:none;
+	}
+
 }
