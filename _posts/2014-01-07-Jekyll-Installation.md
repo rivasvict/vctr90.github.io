@@ -36,11 +36,19 @@ date:   2014-01-07 15:20:04
 
     extconf failed, exit code 1
 
+This error is because you need to install ruby-devel.
+
 Just run the following command
 
- # yum -y install gcc mysql-devel ruby-devel rubygems
+For fedora:
+ # yum -y install ruby-devel
+
+For Debian:
+ # apt-get -y install ruby-dev
 
 and then try it again :)
 
-If everyting goes ok you should have correctly installed Jekyll on your machine ^.^
+**NOTE**: If you are running this on debian, you will also need to install json gem
+ # gem install json
 
+If everyting goes ok you should have correctly installed Jekyll on your machine ^.^
