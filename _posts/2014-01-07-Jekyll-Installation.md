@@ -2,6 +2,7 @@
 layout: post
 title:  "Jekyll installation"
 date:   2014-01-07 15:20:04
+description: "This is a test of properties"
 ---
 
 **Instalation document**
