@@ -4,9 +4,9 @@ title: Vlogg
 ---
 <div id="home" class="content">
 	<h1>Blog Posts</h1>
-		<ul class="posts">
+		<div class="posts">
 			{% for post in site.posts %}
-				<li><div id="lSpan">{{ post.date | date_to_string }}</div><a href="{{ post.url }}"><div id="rSpan">{{ post.title }}</div></a><br></li>
+				<div class="indPost"><div id="lSpan">{{ post.date | date_to_string }}</div><a href="{{ post.url }}"><div id="rSpan">{{ post.title }}</div></a></div><br>
 			{% endfor %}
-		</ul>
+		</div>
 </div>
