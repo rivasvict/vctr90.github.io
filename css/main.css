@@ -123,6 +123,7 @@ a:visited { color: #a0a; }
 	text-decoration:none;
 	font-weight:bold;
 	color:black;
+	font-size:101%;
 }
 
 .posts li a #rSpan{
@@ -192,7 +193,7 @@ a:visited { color: #a0a; }
 	        -webkit-border-radius: 150px;
 	        -moz-border-radius: 150px;
 	        height:auto;
-		//display:none;
+		display:none;
 	}
 
 	#wrapper{
