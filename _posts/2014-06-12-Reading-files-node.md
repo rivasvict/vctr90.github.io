@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Files manipulation with nodeJs"
+title: "Reading files node"
 ---
 
 Node file manipulation.
