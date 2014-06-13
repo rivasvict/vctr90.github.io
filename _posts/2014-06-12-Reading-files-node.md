@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Reading files node"
+title: Reading files node
+published: true
 ---
 
 Node file manipulation.
@@ -17,15 +18,15 @@ How to read each line of a file and put it inside an array.
 
 - 2 Create a file (it can be and has whatever you wish). For this case we used this file you are reading.
 
-- 3 Create a new node script "fChecker.js"
+- 3 Create a new node script "fChecker.js" or anything you like.
 
 - 4 In "fChequer.js" write the following:
 
 	```javascript
 	//Require file system management module
 	var fs = require('fs');
-	//Create an empty array to store all of the lines
-	//This should be a global variable because that array is going to be set from a callback function
+	//Create an empty array to store all lines from our file
+	//linesArray should be a global variable because that array is going to be set from a callback function
 	linesArray = [];
 
 	//Define a function for reading lines
