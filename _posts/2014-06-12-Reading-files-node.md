@@ -1,5 +1,6 @@
 ---
-published: true
+layout: post
+title: "Files manipulation with nodeJs"
 ---
 
 Node file manipulation.
