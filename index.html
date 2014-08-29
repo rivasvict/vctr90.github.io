@@ -6,21 +6,37 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      	<li>
-					<h2>
-						{{ post.title }}
-					</h2>
-					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+			{% assign goes = forloop.index | modulo:2 %}
+			<!-- These conditionals help to organize posts on left and right side of the column -->
+			{% if goes == 0 %}
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+	 	     	<div>
+						<h2>
+							{{ post.title }}
+						</h2>
+						<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 						<p class='post-excerpt'>
 							{{post.excerpt}}
 						</p>
-				</li>
-			</a>
+					</div>
+				</a>
+			{% else %}
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+	 	     	<div>
+						<h2>
+							{{ post.title }}
+						</h2>
+						<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+						<p class='post-excerpt'>
+							{{post.excerpt}}
+						</p>
+					</div>
+				</a>
+			{% endif %}
     {% endfor %}
-  </ul>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

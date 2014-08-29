@@ -2,23 +2,37 @@ body{
 	background-color:$background-color;
 }
 
-.post-list li{
+.post-list div{
 	padding: 3px 4%;
 	background-color:white;
-	margin-bottom: 5px;
+	width:25%;
+	position:absolute;
+}
+
+.post-link div:hover{
+	background-color:rgb(87, 86, 86);
+	color:white;
 }
 
 .post-list{
-	list-style:none;
 	padding:0px;
+	margin-left: 15%;
+	width:69%;
 }
-
 .post-link{
 	text-decoration:none;
 	color:black;
 }
 
-.post-link li:hover{
-	background-color:rgb(87, 86, 86);
-	color:white;
+@include media-query($on-palm){
+	.post-list div{
+		margin-bottom: 5px;
+		width: initial;
+	}
+
+	.post-list{
+		width: initial;
+		margin-left: initial;
+		position:initial;
+	}
 }
