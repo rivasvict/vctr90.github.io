@@ -6,11 +6,14 @@ var relation;
 var r_height = 0;
 var i_height = 124;
 var i_width;
+var max_height;
 
 var post_list_place = function(){
 	i_width = $(window).width()*0.17;
 	l_width = $($('.post-link').children()[0]).outerWidth();
 	$('.post-list div').css('position','absolute');
+	max_height = i_height + l_height;
+	console.log(max_height);
 	$('.post-list').children().each(function(i){
 		if(i!==0){
 			relation = l_height - r_height;

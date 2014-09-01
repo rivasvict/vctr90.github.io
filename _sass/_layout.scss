@@ -1,5 +1,6 @@
 body{
 	background-color:$background-color;
+	font-family: 'Indie Flower', cursive;
 }
 
 .post-list div{
@@ -7,6 +8,7 @@ body{
 	background-color:white;
 	width:25%;
 	position:absolute;
+	font-family:arial;
 }
 
 .post-link div:hover{
