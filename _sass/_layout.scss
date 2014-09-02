@@ -6,8 +6,7 @@ body{
 .post-list div{
 	padding: 3px 4%;
 	background-color:white;
-	width:25%;
-	position:absolute;
+	width:27%;
 	font-family:arial;
 }
 
@@ -16,14 +15,20 @@ body{
 	color:white;
 }
 
-.post-list{
-	padding:0px;
-	margin-left: 15%;
-	width:69%;
-}
 .post-link{
 	text-decoration:none;
+	margin-left:0px;
 	color:black;
+}
+
+.left{
+	float:left;
+	margin-left:15%;
+}
+
+.right{
+	float:right;
+	margin-right:15%;
 }
 
 @include media-query($on-palm){
