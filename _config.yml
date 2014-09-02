@@ -3,7 +3,7 @@ title: vctr90's blog
 email: vctr90w@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is vctr90's blog... You can mostly find here programming topics... Things that seem to be interesting and challenging. I hope you enjoy this little corner on the internet n.n
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "http://vctr90.github.io/" # the subpath of your site, e.g. /blog/
 url: "http://vctr90.github.io/" # the base hostname & protocol for your site
 web: "http://vctr90.herokuapp.com" # the base hostname & protocol for your site
 twitter_username: vctr90 
