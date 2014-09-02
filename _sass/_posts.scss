@@ -5,6 +5,12 @@
 	background-color:white;
 }
 
+pre{
+	overflow-x:auto;
+	background-color:gainsboro;
+	padding: 10px 2%;
+}
+
 @include media-query($on-palm){
 	.post{
 		width:initial;
