@@ -5,12 +5,6 @@ date:   2014-01-07 15:20:04
 description: "This is a test of properties"
 ---
 
-**Instalation document**
-========================
-
-*What is Jekyll*
-----------------
-
 *Jekyll* is a static-site generator. This is ideal for blogs.
 
 *Steps for installation*

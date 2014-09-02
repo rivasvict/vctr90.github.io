@@ -4,8 +4,7 @@ title: Reading files node
 published: true
 ---
 
-Node file manipulation.
-======================
+Files manipulation migth be for you an important tool when building an application. In this case we are going to use NodeJs and its fs (file system) module to read files.
 
 How to read each line of a file and put it inside an array.
 ----------------------------------------------------------
@@ -71,13 +70,14 @@ How to read each line of a file and put it inside an array.
 
 	var input = fs.createReadStream(__dirname + '/node_file_manipulation.md');
 	var file = readLines(input,func);
+
 	```
 
 Lets explain 3 of the lines that might seem confusing
 
-```javascript
+	```javascript
 	var input = fs.createReadStream(__dirname + '/node_file_manipulation');
-```
+	```
 
 This creates a new read stream object and set its value to the input variable.
 
@@ -88,15 +88,15 @@ This creates a new read stream object and set its value to the input variable.
 
 	to read more (in detail) about stream object you can visit nodejs documentation [here](http://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options) at 'fs.createReadStream(path, [options])' explanation.
 
-```javascript
+	```javascript
 	input.on('data',function(data){
-```
+	```
 
 As you might know .on() method attaches data to the stream and pass it to a handler function which is required in the next parameter. This function receives the data of our source as buffer that can be dedoded into a string (as a parameter). The handler function is triggered as soon as data is attached to the stream  by means of .on() method.
 
-```javascript
+	```javascript
 	input.on('end',function(){
-```
+	```
 
 'end' is attached to the stream (read stream object) and it will be executed as soon as the last element of buffer is processed by 'data'.
 
