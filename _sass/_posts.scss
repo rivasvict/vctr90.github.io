@@ -1,1 +1,13 @@
+.post{
+	width:62%;
+	padding:14px 4%;
+	margin-left:15%;
+	background-color:white;
+}
 
+@include media-query($on-palm){
+	.post{
+		width:initial;
+		margin-left:0px;
+	}
+}

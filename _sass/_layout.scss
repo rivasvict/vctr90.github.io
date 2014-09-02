@@ -25,8 +25,17 @@ a{
 	margin-top:-43px;
 }
 
-a.page-link{
+.site-nav .page-link,.contact-list a{
+	color:#2045A7;
+	font-weight:bold;
+}
 
+.contact-list a:hover{
+	text-decoration:underline;
+}
+
+.site-nav .page-link:hover{
+	text-decoration:underline;
 }
 
 .site-header{
@@ -76,7 +85,17 @@ footer{
 	width:68%;
 }
 
+#twitter{
 
+}
+
+#github{
+
+}
+
+#rss{
+
+}
 
 @include media-query($on-palm){
 
