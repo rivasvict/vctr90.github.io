@@ -3,11 +3,37 @@ body{
 	font-family: 'Indie Flower', cursive;
 }
 
+.icon{
+	width:7%;
+	height:auto;
+}
+
+a{
+	text-decoration:none;
+}
+
+.site-title{
+	font-family: 'Pacifico', cursive;
+	text-decoration:none;
+	color:black;
+	font-size:51px;
+}
+
+.trigger{
+	float:right;
+	margin-right:20%;
+	margin-top:-43px;
+}
+
+.site-header{
+	margin-left:16%;
+	padding:20px 0 20px 0;
+}
+
 .post-list div{
 	padding: 3px 4%;
 	background-color:white;
 	width:27%;
-	font-family:arial;
 }
 
 .post-link div:hover{
@@ -31,7 +57,39 @@ body{
 	margin-right:15%;
 }
 
+ul{
+	list-style:none;
+	padding:0;
+}
+
+footer{
+	text-align:center;
+}
+
+.site-footer{
+	float:left;
+	margin-left:16%;
+	width:68%;
+}
+
+
+
 @include media-query($on-palm){
+
+	.site-header{
+		margin-left:initial;
+	}
+
+	.site-title{
+		font-family: 'Pacifico', cursive;
+		text-decoration:none;
+		color:black;
+		font-size:40px;
+	}
+	.trigger{
+		margin-right:3%;
+	}
+
 	.post-list div{
 		margin-bottom: 5px;
 		width: initial;
@@ -41,5 +99,10 @@ body{
 		width: initial;
 		margin-left: initial;
 		position:initial;
+	}
+
+	.site-footer{
+		margin-left:3%;
+		width:94%;
 	}
 }

@@ -1,38 +1,35 @@
 <footer class="site-footer">
 
   <div class="wrapper">
+  	<p class="rss-subscribe">
+			{% if site.github_username %}
+				<a href="https://github.com/{{ site.github_username }}" target='_blank'>
+					<img src='css/github.png' class='icon'>
+				</a>
+			{% endif %}
+
+
+			{% if site.twitter_username %}
+				<a href="https://twitter.com/{{ site.twitter_username }}" target='_blank'>
+					<img src='css/twitter.png' class='icon'>
+				</a>
+			{% endif %}
+
+			<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+				<img src='css/rss.png' class='icon'>
+			</a>
+
+		</p>
 
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}" target='_blank'>
-              <span class="icon  icon--github">
-              </span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target='_blank'>
-              <span class="icon  icon--twitter">
-              </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>

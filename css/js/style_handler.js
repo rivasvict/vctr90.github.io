@@ -38,4 +38,6 @@ $(window).resize(function(){
 	resize();
 });
 
-post_list_place();
+if($(window).width()>600){
+	post_list_place();
+}
