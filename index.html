@@ -8,7 +8,7 @@ layout: default
 			{% assign goes = forloop.index | modulo:2 %}
 			<!-- These conditionals help to organize posts on left and right side of the column -->
 			{% if goes == 0 %}
-				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}" id='match'>
 	 	     	<div>
 						<h2>
 							{{ post.title }}
@@ -34,5 +34,4 @@ layout: default
 			{% endif %}
     {% endfor %}
   </div>
-
 </div>
