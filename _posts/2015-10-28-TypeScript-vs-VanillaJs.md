@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TypeScript vs VanillaJs
-date:   2014-01-07 15:20:04
+date:   2015-10-28 15:20:04
 description: "An article to choose one or another technology"
 ---
 
