@@ -1,9 +1,11 @@
 ---
 layout: post
 title: TypeScript vs VanillaJs
-date:   2015-10-28 15:20:04
-description: "An article to choose one or another technology"
+date: 2015-10-28T15:20:04.000Z
+description: An article to choose one or another technology
+published: true
 ---
+
 
 
 ## Where to choose TypeScript over VanillaJs
@@ -12,16 +14,16 @@ description: "An article to choose one or another technology"
 
 We need to define TypeScript
 
-    - **TypeScript: **Is a superset of JavaScript that comiples to plain JavaScript.
+- **TypeScript: **Is a superset of JavaScript that comiples to plain JavaScript.
     	This means every single line of code written in VanillaJs is going to work well over TypeScript compiler.
         
 # Advantages
-    - **Type checking: **This is one of the core functionality of TypeScript. It allows you to define types for every variable or returning function over VanillaJs.
-    - **Scalability: **As we might know Javascrtipt itself is not a language specifically designed for larger projects. This means it laks of some important structural mechanisms like classes, modules or maybe interfaces. Here is where TypeScript comes to help.
-    - **Compiling time type checking: **This allows you to see a potential type bug that can cause an application to crash. It could mitigate the need of a unit testing.
-	- **For visual Studio users: **Type checking is also working when you are coding. Which means you are able to see a bug even before JavaScript compilation.
-    - **Angular 2 is using it (not sure yet if it is an advantage): **Angular team decided to use TypeScript for their new version.
-    - **It is still JavaScript: **It is still Javascript with some aditions.
+- **Type checking: **This is one of the core functionality of TypeScript. It allows you to define types for every variable or returning function over VanillaJs.
+- **Scalability: **As we might know Javascrtipt itself is not a language specifically designed for larger projects. This means it laks of some important structural mechanisms like classes, modules or maybe interfaces. Here is where TypeScript comes to help.
+- **Compiling time type checking: **This allows you to see a potential type bug that can cause an application to crash. It could mitigate the need of a unit testing.
+- **For visual Studio users: **Type checking is also working when you are coding. Which means you are able to see a bug even before JavaScript compilation.
+- **Angular 2 is using it (not sure yet if it is an advantage): **Angular team decided to use TypeScript for their new version.
+- **It is still JavaScript: **It is still Javascript with some aditions.
     
 # A good initiative.
 
@@ -36,3 +38,9 @@ Just in the case we need to use Angular 2 or of it is extremely important types 
 ## Conclusion
 
 TypeScript will get you to use type strict validation, which is nice for early bug detection and helps to mitigate the need of unit testing. It brings structural mechanisms to the game (sounds good and allows you to scale larger applicatins) but ES6 also bring them as well with other features and can be used today with Babel. If we are going to use frameworks that require the strict use of TypeScript (such as Angular 2) it is totally necesary to use it.
+
+# References:
+
+- TypeScript official page: http://www.typescriptlang.org/
+- This post camparing TypeScript, old JavaScript, ES6 JavaScript and CoffeScript: http://www.slideshare.net/NeilGreen1/type-script-vs-coffeescript-vs-es6
+- Wikipedia ES6: https://en.wikipedia.org/wiki/ECMAScript
