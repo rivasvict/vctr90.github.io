@@ -1,6 +1,9 @@
 ---
 published: true
+layout: post
+title: TypeScript vs VanillaJs
 ---
+
 
 ## Where to choose TypeScript over VanillaJs
 
