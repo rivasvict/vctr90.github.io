@@ -21,11 +21,17 @@ __TypeScript:__ Is a superset of JavaScript that comiples to plain JavaScript.
         
 # Advantages
 __Type checking:__ This is one of the core functionality of TypeScript. It allows you to define types for every variable or returning function over VanillaJs.
+
 __Scalability:__ As you might know Javascrtipt itself is not a language specifically designed for larger projects. This means it laks of some important structural mechanisms like classes, modules or maybe interfaces. Here is where TypeScript with ES6 comes to help.
+
 __Compiling time type checking:__ This allows you to see a potential type bug that can cause an application to crash. It could mitigate the need of a unit testing.
+
 __For visual Studio users:__ Type checking is also working when you are coding. Which means you are able to see a bug even before JavaScript compilation.
+
 __Angular 2 is using it (not sure yet if it is an advantage):__ Angular team decided to use TypeScript for their new version.
-- *Note: * Angular 2 also has a JavaScript version which I am not sure if it is going to last long over the time.
+
+*Note: * Angular 2 also has a JavaScript version with ES5 (adapted to the now ways of Angular2 apps) which I am not sure if it is going to last long over the time.
+
 __It is still JavaScript:__ It is still Javascript with some aditions.
     
 # A good initiative.
@@ -42,10 +48,12 @@ Just in the case it is extremely important types checking, we should use TypeScr
 
 ## Conclusion
 
-TypeScript will get you to use type strict validation, which is nice for early bug detection and helps to mitigate the need of unit testing. It brings structural mechanisms to the game (sounds good and allows you to scale larger applicatins) but ES6 also bring them as well with other features and can be used today with Babel. If we are going to use frameworks that require the strict use of TypeScript, wi will need to use it.
+TypeScript will get you to use type strict validation, which is nice for early bug detection and helps to mitigate the need of unit testing. It brings structural mechanisms to the game (sounds good and allows you to scale larger applications) but ES6 also bring them as well with other features and can be used today with Babel. If we are going to use frameworks that require the strict use of TypeScript, we will need to use it.
 
 # References:
 
 - TypeScript official page: [TypeScript](http://www.typescriptlang.org/)
 - This post camparing TypeScript, old JavaScript, ES6 JavaScript and CoffeScript: [Comparing TypeScript, ES6 and CoffeScript](http://www.slideshare.net/NeilGreen1/type-script-vs-coffeescript-vs-es6)
 - Wikipedia ES6: [Wikipedia ES6](https://en.wikipedia.org/wiki/ECMAScript)
+
+Written by [@vctr90](http://twitter.com/vctr90)
