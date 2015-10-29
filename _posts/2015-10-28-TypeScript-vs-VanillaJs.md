@@ -5,8 +5,7 @@ description: An article to choose one or another technology
 published: true
 ---
 
-Where to choose TypeScript over VanillaJs
-=========================================
+This is an article that wants to help when choosing between TypeScript and VanillaJs
 
 # Introduction:
 
