@@ -1,7 +1,6 @@
 ---
 layout: post
 title: TypeScript vs VanillaJs
-date: {}
 description: An article to choose one or another technology
 published: true
 ---
@@ -11,7 +10,7 @@ Where to choose TypeScript over VanillaJs
 
 # Introduction:
 
-JavaScript has been dominant over the years since its creation back in 1996 as a client-side scripting language. This was a language created approximately in 3 weeks (very crazy). From that momment JavaScript has never stopped growing. All of this growth was a bit vertiginous and as a result it became a language that was suitable for litle apps and not for larger ones, due to a lack of more advanced features. This is the reason why we are here. TypeScript alongside ES6 (most recent released EcmaScript version) claims to be a solution for those scalability problems that JavaScript has been carrying over the years.
+JavaScript has been dominant over the years since its creation back in 1996 as a client-side scripting language. This was a language created approximately in 10 days (very crazy). From that momment JavaScript has never stopped growing. All of this growth was a bit vertiginous and as a result it became a language that was suitable for litle apps and not for larger ones, due to a lack of more advanced features. This is the reason why we are here. TypeScript alongside ES6 (most recent released EcmaScript version) claims to be a solution for those scalability problems that JavaScript has been carrying over the years.
 
 # First of all:
 
