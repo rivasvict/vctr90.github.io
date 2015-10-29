@@ -6,10 +6,8 @@ description: An article to choose one or another technology
 published: true
 ---
 
-
-
-
-## Where to choose TypeScript over VanillaJs
+Where to choose TypeScript over VanillaJs
+=========================================
 
 # Introduction:
 
