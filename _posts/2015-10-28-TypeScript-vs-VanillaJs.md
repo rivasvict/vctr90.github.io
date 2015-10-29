@@ -19,17 +19,17 @@ JavaScript has been dominant over the years since its creation back in 1996 as a
 
 We need to define TypeScript
 
-- __TypeScript: __Is a superset of JavaScript that comiples to plain JavaScript.
+__TypeScript:__ Is a superset of JavaScript that comiples to plain JavaScript.
     	This means every single line of code written in VanillaJs is going to work well over TypeScript compiler. It uses all ES6 features and includes type strict checking, interfaces and some other.
         
 # Advantages
-- __Type checking: __This is one of the core functionality of TypeScript. It allows you to define types for every variable or returning function over VanillaJs.
-- __Scalability: __As you might know Javascrtipt itself is not a language specifically designed for larger projects. This means it laks of some important structural mechanisms like classes, modules or maybe interfaces. Here is where TypeScript with ES6 comes to help.
-- __Compiling time type checking: __This allows you to see a potential type bug that can cause an application to crash. It could mitigate the need of a unit testing.
-- __For visual Studio users: __Type checking is also working when you are coding. Which means you are able to see a bug even before JavaScript compilation.
-- __Angular 2 is using it (not sure yet if it is an advantage): __Angular team decided to use TypeScript for their new version.
+__Type checking:__ This is one of the core functionality of TypeScript. It allows you to define types for every variable or returning function over VanillaJs.
+__Scalability:__ As you might know Javascrtipt itself is not a language specifically designed for larger projects. This means it laks of some important structural mechanisms like classes, modules or maybe interfaces. Here is where TypeScript with ES6 comes to help.
+__Compiling time type checking:__ This allows you to see a potential type bug that can cause an application to crash. It could mitigate the need of a unit testing.
+__For visual Studio users:__ Type checking is also working when you are coding. Which means you are able to see a bug even before JavaScript compilation.
+__Angular 2 is using it (not sure yet if it is an advantage):__ Angular team decided to use TypeScript for their new version.
 - *Note: * Angular 2 also has a JavaScript version which I am not sure if it is going to last long over the time.
-- __It is still JavaScript: __It is still Javascript with some aditions.
+__It is still JavaScript:__ It is still Javascript with some aditions.
     
 # A good initiative.
 
